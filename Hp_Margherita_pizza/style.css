@@ -1,0 +1,201 @@
+body {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-family: 'Martel', serif;
+    color: rgb(31, 29, 29);
+}
+
+/* Navbar */
+
+/* .firstLogo {
+    width: 35%;
+}
+.navbar-brand {
+    width: 30%;
+} */
+
+.phone {
+    font-size: 1.5rem;
+}
+
+/* .pizzaImage {
+    size: 50%;
+} */
+
+.navbar-toggler{
+    margin: 0 auto 0 50px;
+}
+/* Title */
+
+.jumbotron {
+    background: url("Images/pizza_right.jpg");
+    background-size: cover;
+    color: white;
+    height: 400px;
+    font-family: 'Merriweather', serif;
+}
+
+.titleText {
+    width: 50%;
+    text-align: left;
+    padding: 100px 0 0 50px;
+}
+
+h1 {
+    line-height: 1.5;
+}
+
+.container {
+    padding: 7%;
+}
+
+/* Welcome */
+
+.logoImage {
+    width: 30%;
+}
+.restaurantimage {
+    width: 80%;
+    border-radius: 20%;
+
+}
+
+/* Menu */
+
+.carouselButton{
+    width: 40px;
+}
+
+.carousel-caption {
+    color: black;
+    margin-bottom: -30px;
+    
+}
+
+.carouselImage {
+    height: inherit;
+    padding: 30px 10px 70px 10px;
+}
+
+.carousel-indicators{
+    margin: 2px auto 0 auto;
+}
+
+.carousel-item {
+    height: 400px;
+}
+
+#menu {
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.menuRow {
+    padding: 20px;
+    font-weight: bold;
+    background-color: #c26565;
+}
+
+.menu td {
+    padding: 5px 0;
+}
+
+.price {
+    text-align: right;
+    width: 45%;
+}
+
+
+/* Reviews */
+
+.card {
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    border: none;
+    font-family: 'Chivo', sans-serif;
+}
+.card-img-top {
+    width: 40%;
+    padding-top: 10px;
+}
+
+#reviews {
+    padding-top: 30px;
+    margin: 20px 35px;
+}
+
+.reviews-button {
+    padding: 20px 0;
+}
+
+
+/* Delivery */
+
+.delivery {
+    width: 80%;
+    margin:60px auto;
+}
+
+.deliveryText {
+    text-align: center;
+    padding-top: 30px;
+    background-color: #d9c6a5;
+}
+#deliveryImage {
+    padding-top: 20px;
+    width: 250px;
+}
+
+/* Contacts */
+
+#contacts {
+    
+    background-color: #a35d6a;
+}
+.location {
+    width: 80%;
+    padding-top: 30px;
+}
+.rowContacts{
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px auto;
+}
+
+td {
+    line-height: 1.5;
+    text-align: left;
+
+}
+th {
+    line-height: 2;
+    padding: 10px 0;
+}
+#map{
+    margin-top: 25px;
+    height: 250px;
+    width: 100%;
+}
+
+
+/* Footer */
+
+a {
+   
+    text-decoration: none;
+    color: black;
+    padding: 20px auto;
+    margin: auto 10px;
+}
+a:hover{
+    color: gray;
+}
+hr {
+    border-top: solid #f7e7bd 3px;
+    margin: 10px auto;
+    height: 0;
+}
+
