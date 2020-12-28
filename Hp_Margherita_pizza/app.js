@@ -1,9 +1,12 @@
 
+/* Delivery image */
+
 var randomNumber = Math.floor((Math.random()*4)+1);
 var randomImage = "\"Images/delivery/"+randomNumber+".png\"";
 
-// document.querySelector("#deliveryImage").src =`./Images/delivery/${randomNumber}.png`;
 document.querySelector("#deliveryContainer").innerHTML = `<img id=\"deliveryImage\" src=\"./Images/delivery/${randomNumber}.png\" alt=\"Delivery image\"> `;
+
+/* Google map */
 
 
 // Initialize and add the map
@@ -22,4 +25,24 @@ function initMap() {
     });
   }
 
- 
+
+/* Scroll-up button */
+
+
+mybutton = document.getElementById("myBtn");
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+
+function topFunction() {
+  document.documentElement.scrollTop = 0;
+}

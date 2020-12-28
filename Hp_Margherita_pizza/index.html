@@ -13,16 +13,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <title>Margherita</title>
-    <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- Stylesheet -->
     <link href="style.css" rel="stylesheet" type="text/css">
     <!-- Favicon -->
     <link rel="icon" href="./Images/favicon-32x32.png">
-    <!-- Google map -->
-    <script
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBvYAh80M87G8RpF-8JUYrPF3-9h_f-xJc&callback=initMap&libraries=&v=weekly"
-        defer></script>
 </head>
 
 <body>
@@ -31,13 +25,13 @@
     <!-- Nav bar -->
 
     <nav class="navbar navbar-expand-md navbar-light">
-
+        <span class="navbar-brand"><i class="fas fa-phone phone"> +61425684562</i></span>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
                 <li class=" nav-item active">
                     <a class="nav-link active" aria-current="page" href="#title">Home</a>
@@ -57,7 +51,7 @@
             </ul>
 
         </div>
-        <span class="navbar-brand"><i class="fas fa-phone phone"> +61425684562</i></span>
+
     </nav>
 
 
@@ -330,7 +324,7 @@
         <hr>
     </div>
 
-    <!-- <img src="Images/map.png" class="location" alt="Restaurant location"> -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
 
 
 
@@ -344,6 +338,10 @@
 
     </footer>
 
+    <!-- Google map -->
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBvYAh80M87G8RpF-8JUYrPF3-9h_f-xJc&callback=initMap&libraries=&v=weekly"
+        defer></script>
     <!-- Fontawesome -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
