@@ -12,7 +12,7 @@ function initMap() {
     const pizza = { lat: -37.93027, lng: 144.99962 };
     // The map, centered at  "Margherita pizza"
     const map = new google.maps.Map(document.getElementById("map"), {
-      zoom: 4,
+      zoom: 15,
       center: pizza,
     });
     // The marker, positioned at "Margherita pizza"
